@@ -18,4 +18,3 @@ spec:
       - name: python-service
         image: service-python
         imagePullPolicy: Never
-        #probes

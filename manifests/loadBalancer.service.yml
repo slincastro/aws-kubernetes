@@ -4,7 +4,6 @@ metadata:
   name: my-service-load-balancer
 spec:
   type: LoadBalancer
-  #ExternalName
   selector:
     app: python-service
   ports:

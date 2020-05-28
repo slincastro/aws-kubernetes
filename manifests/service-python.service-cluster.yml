@@ -6,7 +6,6 @@ metadata:
     app: python-service
 spec:
   type: ClusterIP
-  #ExternalName
   selector:
     app: my-service
   ports:
