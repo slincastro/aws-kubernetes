@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-service-cluster
+  labels:
+    app: python-service
+spec:
+  type: ClusterIP
+  #ExternalName
+  selector:
+    app: my-service
+  ports:
+  - name: http
+    port: 5000
+    targetPort: 5000

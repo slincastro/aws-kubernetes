@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-service
+spec:
+  containers:
+  - name: my-nginx
+    image: service-python
+    ports:
+      - containerPort: 5000
+    imagePullPolicy: Never
