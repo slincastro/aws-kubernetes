@@ -16,5 +16,4 @@ spec:
     spec:
       containers:
       - name: python-service
-        image: service-python
-        imagePullPolicy: Never
+        image: 805974095975.dkr.ecr.us-west-2.amazonaws.com/kubernetes-test:3f25dfac35058656570e36509255b959b0c3e8ad
